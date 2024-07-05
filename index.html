@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    
+    <main>
+        <h2>Froze Movie Review</h2>
+        <form>
+            <label for="Name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            <label for="Email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Enter your mail">
+            <label for="Age">Age: </label>
+                <input type="number" name="age" id="age" placeholder="Enter your age">
+            <label for="type-of-sugg">Suggestion for the public:</label>
+                <select name="type-of-sugg" id="type-of-sugg">
+                    <option value="Must Watch">Must Watch</option>
+                    <option value="One Time Watch">One Time Watch</option>
+                    <option value="Don't Watch">Don't Watch</option>
+                </select>
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+                <button type="submit">Submit Feedback</button>
+        </form>
+    </main>
 </body>
 </html>
