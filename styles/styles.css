@@ -2,15 +2,19 @@ body{
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('../images/frozen.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
 }
 main {
     max-width: 600px;
     margin: 40px auto;
     padding: 20px 40px; /* Increased right padding */
-    background-color: white;
+    background-color: #5a70f096;
     border-radius: 8px;
-    box-shadow: 0 4px 8px #0000001a;
+    box-shadow: 5 4px 8px #0000001a;
 }
 main h2{
     text-align: center;
