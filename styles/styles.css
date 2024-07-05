@@ -2,14 +2,14 @@ body{
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('../images/frozen.jpeg');
+    background-image: url('../images/R.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     
 }
 main {
-    max-width: 600px;
+    max-width: 400px;
     margin: 40px auto;
     padding: 20px 40px; /* Increased right padding */
     background-color: #5a70f096;
